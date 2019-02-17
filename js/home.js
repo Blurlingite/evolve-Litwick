@@ -11,6 +11,11 @@ document.getElementById("candyButton").onclick = function(){
   giveOneCandy()
 };
 
+  document.getElementById("fiveCandyButton").onclick = function(){
+    giveFiveCandies()
+
+};
+
 
 function giveOneCandy(){
 
@@ -20,4 +25,43 @@ function giveOneCandy(){
 
    // change the value of the input field to be the number incremented
    document.getElementById("numOfCandies").value = currentValue;
+
+   evolution();
+
+
+}
+
+
+
+
+function giveFiveCandies(){
+
+  currentValue = parseInt(currentValue) + 5;
+
+  document.getElementById("numOfCandies").value = currentValue;
+
+  evolution();
+
+}
+
+
+
+function evolution(){
+
+  // If the amount of candies in the box is 41...
+  if(currentValue >= 41){
+
+    // get the src of the image so you can change it, thus changing the image that appears
+    document.getElementById("litwickImg").src = "img/lampent-pokemonPetsDOTCom.png";
+
+
+  }
+
+  if(currentValue >= 100){
+
+    document.getElementById("litwickImg").src = "img/chandelure-pokkenTournament.png";
+
+
+}
+
 }
