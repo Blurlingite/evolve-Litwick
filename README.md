@@ -1,11 +1,16 @@
 Evolve Litwick
 ===
 
-You can evolve this pokemon by pressing the button to
+You can evolve this pokemon by pressing the buttons to
 feed it candies.
 
+Litwick will evolve into Lampent when fed at least
+41 candies
 
-STATUS: UNFINISHED
+Lampent will evolve into Chandelure when fed 100 candies
+
+
+STATUS: FINISHED
 
 
 **Installing**
